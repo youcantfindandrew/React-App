@@ -1,13 +1,12 @@
-
-function Stuff({name = "Employee Man", 
-title = "Worker"}){
+//import PropTypes from 'prop-types';
+function Stuff({name = "Employee Man",
+    title = "Worker",}){
     return(
-        <div className="mCard">
-            <img src="https://placehold.co/100x100"></img>
-            <h3>{name}</h3>
-            <p>{title}</p>
+        <div className="myCard">
+        <img src="https://placehold.co/150x150" className="cardPic" ></img>
+        <i><h3>{name}</h3></i>
+        <p>{title}</p>
         </div>
     );
 }
-
 export default Stuff
