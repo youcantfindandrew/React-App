@@ -9,4 +9,8 @@ function Stuff({name = "Employee Man",
         </div>
     );
 }
+<<<<<<< HEAD
 export default Stuff
+=======
+export default Stuff
+>>>>>>> 372630d105320e7b4cfb1d5d82402a9f9376ec29
