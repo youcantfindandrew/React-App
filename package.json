@@ -10,7 +10,7 @@
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 },
-"homepage": "https://youcantfindandrew.github.io/ReactApp",
+"homepage": "https://youcantfindandrew.github.io/React-App",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
