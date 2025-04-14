@@ -1,5 +1,5 @@
 //import PropTypes from 'prop-types';
-function Stuff({name = "Employee Man",
+function Stuffs({name = "Employee Man",
     title = "Worker",}){
     return(
         <div className="myCard">
@@ -9,8 +9,4 @@ function Stuff({name = "Employee Man",
         </div>
     );
 }
-<<<<<<< HEAD
-export default Stuff
-=======
-export default Stuff
->>>>>>> 372630d105320e7b4cfb1d5d82402a9f9376ec29
+export default Stuffs
